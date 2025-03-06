@@ -108,6 +108,48 @@ h6 {
   color: var(--heading-color);
   font-family: var(--heading-font);
 }
+/* WhatsApp Floating Button */
+.whatsapp-btn {
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  background-color: #25D366;
+  color: white;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.whatsapp-btn:hover {
+  transform: scale(1.1);
+}
+
+/* Icon Styling */
+.whatsapp-icon {
+  font-size: 35px;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+  .whatsapp-btn {
+    bottom: 15px;
+    right: 15px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .whatsapp-icon {
+    font-size: 30px;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Global Header

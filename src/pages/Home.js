@@ -124,6 +124,15 @@ export default function Home() {
       <Services />
       <FQ />
       <Contact />
+      {/* WhatsApp Floating Button using Bootstrap Icons */}
+      <a
+        href="https://wa.me/919783870541" // Replace with your WhatsApp number
+        className="whatsapp-btn"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i className="bi bi-whatsapp whatsapp-icon"></i>
+      </a>
 
       <button
         className={`scroll-top d-flex align-items-center justify-content-center ${isVisible ? "show" : "hide"}`}
